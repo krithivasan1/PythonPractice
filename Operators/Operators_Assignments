@@ -1,0 +1,38 @@
+#19.01.2025 - Assignment
+#1
+print((3 + 4) // 2 + 6) # print 9 
+
+
+#2
+a = 10 # change this
+b = 5 # change this
+c = 6
+ # change this
+
+# DO NOT CHANGE THIS
+x = a < b + c # + is higher precedence than < operator 
+
+print(x) # this should be True
+
+#3
+#total_amount = float(input())
+#number_of_Bills =int(input())
+#output= int(total_amount/number_of_Bills)
+#print("The output is ",output)
+# L no need to declare with int a like we have in Java 
+# L int(input() ) is the correct usage 
+
+
+#4
+#phone_no=int(input())
+#if(9999999999<=phone_no):
+#    print('false')
+#else:
+#    print('true')
+#L for if , else we have to append with : 
+#L there is no long in python. all integers are long 
+
+
+
+#5
+print("54" + "23") # 5423 
