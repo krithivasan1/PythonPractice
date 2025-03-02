@@ -1,0 +1,23 @@
+# Input int and minus 
+
+#a = int(input())
+#print(40-a)
+
+
+# input and multiplication 
+#a=int(input())
+#print(a*2)
+
+# input and multiplication and additon 
+#a=int(input())
+#b=int(input())
+#print(a*2+b) 
+
+#input and multiplication 
+#a=int(input())
+#b=int(input())
+#print(a*b)
+
+#string to float 
+#a="13.56"
+#print(float(a))

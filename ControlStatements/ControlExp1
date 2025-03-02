@@ -1,0 +1,140 @@
+
+#check the weather and then suggestion depend on it 
+# # weather=input()
+# if(weather=='rainy'):
+#     print("Turning on the wiper")
+# else:
+#     print("Don't turn on the wiper")
+
+# print("safe driving")
+
+
+# logic to check positive or negative 
+# num =int(input())
+# if(num>=0):
+#     print("positive")
+# else: 
+#     print("negative")
+
+# check the password authentication 
+# password=input()
+# if(password == 'abc123'):
+#     print("Hey you are logging in")
+# else: 
+#     print("Incorrect password , Please try again")
+
+# Check which number is greater 
+# a =int(input())
+# b =int(input())
+# if(a>b):
+#     print(a," is greater")
+# else:
+#     print(b, "is greater")
+
+# Check the number is even or odd 
+# a=int(input())
+# if a%2==0:
+#     print("Its even")
+# else: 
+#     print ("its odd ")
+
+# check the denomination is available  
+# amount=int(input())
+# if (amount%500)%200==0 or amount % 200 ==0:
+#     print("Denomination available")
+# else: 
+#     print("Denomination not available ")
+
+# light = input()
+# if(light == 'red'):
+#     print("Please stop here ")
+# elif (light =='green'):
+#     print("Groom Groom")
+# elif (light == 'orange'):
+#     print("Get ready")
+# else:
+#     print("Invalid color")
+#     # if Red, it will show invalid color 
+
+# num = int(input())
+# if(num>0):
+#     print(num,"Number is positive")
+# elif (num ==0):
+#     print(num,"Number is zero")
+# else: 
+#     print(num,"Number is negative")
+
+# num = int(input())
+# if(num%5==0 and num%3==0):
+#     print("FizzFuzz")
+# elif(num%5==0):
+#     print("Fuzz")
+# elif(num%3==0):
+#     print("Fizz")
+# else:
+#     print("not multiple of 3 or 5 ")
+
+# a = int(input())
+# b = int(input())
+# c = int ( input())
+# if(a+b+c ==180):
+#     print('1')
+# else:
+#     print('0')
+
+
+# tell profit or loss 
+# cp= int(input())
+# sp = int(input())
+# if(sp>cp):
+#     print(1)
+#     print(sp-cp)
+# else:
+#     print(-1)
+#     print(cp-sp)
+
+# program to find the greatest of two numbers 
+# a = int(input())
+# b = int(input())
+# if(a>b):
+#     print(a)
+# else: 
+#     print(b)
+
+# program to find the minimum age to ride the roller coaster
+
+
+# a=int(input())
+# if(a>=13):
+#     print("You can ride the roller coaster")
+# else:
+#     print("You can't ride the roller coaster")
+
+# program to find the average of two class marks
+# a1 =int(input())
+# a2=int(input())
+# b1=int(input())
+# b2=int(input())
+# a3=(a1+a2)/2
+# b3 = (b1+b2)/2
+# if(a3>b3):
+#     print("True")
+# else:
+#     print("False")
+
+
+
+# programto find the minimum of two numbers 
+# a1 = int(input())
+# a2 = int(input())
+# if(a1<a2):
+#     print(a1,"is smaller")
+# else:
+#     print(a2," is smaller")
+
+x = int(input())
+if x > 2:
+    x = x*2
+if x > 4:
+    x = 0
+print(x)

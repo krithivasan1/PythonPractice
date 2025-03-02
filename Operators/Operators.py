@@ -82,15 +82,4 @@ print(bool(int(input()))) # if 0 , false, If it is 1, then it is true
 print(True and True)
 # same for other operators 
 
-#19.01.2025 - Assignment
-print((3 + 4) // 2 + 6) # print 9 
 
-a = 10 # change this
-b = 5 # change this
-c = 6
- # change this
-
-# DO NOT CHANGE THIS
-x = a < b + c # + is higher precedence than < operator 
-
-print(x) # this should be True

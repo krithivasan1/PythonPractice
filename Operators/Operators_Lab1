@@ -1,0 +1,13 @@
+# print(True ==1) -> True 
+# comparign string and integer , returns false 
+print("1"==1) # false 
+
+x =55/11
+print(x) # returns 5.0 , which returns float 
+
+a =input()
+b =int(input())
+if(b>18):
+    print(True)
+else: 
+    print(False)
