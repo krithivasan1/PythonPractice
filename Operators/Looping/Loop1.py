@@ -144,3 +144,77 @@
 # odd  number using jump and not if 
 # for i in range(1,11,2):
 #     print(i)
+
+# program to print all the even numbers from 1 to N 
+# N has to take from input 
+# n = int(input())
+# for i in range(0,n,2):
+#     print(i)
+
+
+# program to print perfect square from the given input 
+
+# a = int(input())
+# for i in range(1,a):
+#     if(i**2<=a):
+#         print(i**2)
+
+# Assignement 
+# for i in range(-6, -10, -1):
+#      print(i, end =" ")
+
+#summation 
+# a = int(input())
+# total =0
+# for i in range(1,a+1):
+#     total +=i
+
+# print(total)
+
+# program to find the exponent 
+# num=16
+# base=4
+# cnt=0
+# while(num>1):
+#   num/=base
+#   cnt+=1
+# print(cnt)
+
+# a = int(input())
+# start =1
+# while(start<=a):
+#     b = int(input())
+#     count=1
+#     while(b>9):
+#         count+=1
+#         b=b/10
+#     print(count)
+#     start+=1
+
+
+# a =0
+# while True:
+#     a=a+2
+#     print('1',a)
+#     a%=5
+#     print('2',a)
+#     a+=1
+#     print('3',a)
+#     if(a==5):
+#         break
+# print (a)
+
+
+# x = int(input())
+# y = int(input())
+
+# q = 0
+# r = 0
+# while x >= y:
+#     x -= y
+#     q += 1
+# print(q, r)
+
+n =int(input())
+for i in range(0,n):
+    print('*',end="")
