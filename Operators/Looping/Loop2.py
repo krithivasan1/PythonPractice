@@ -145,15 +145,15 @@
 # LCM (A,B) = A*B/ HCF ( A,B ) 
 # Eg. lcm (5,10) = 5*10/5 = 10 
 
-# a = int(input())
-# b = int(input())
-# gcd=0
+a = int(input())
+b = int(input())
+gcd=0
 
-# for i in range (min(a,b)+1,0,-1):
-#     if(a%i==0 ) and (b%i==0):
-#         print('The gcd of ',a,' and ',b,' is ',i)
-#         gcd=i
-#         break
-# lcm = int((a*b)/i)
-# print(lcm)
+for i in range (min(a,b)+1,0,-1):
+    if(a%i==0 ) and (b%i==0):
+        print('The gcd of ',a,' and ',b,' is ',i)
+        gcd=i
+        break
+lcm = int((a*b)/i)
+print(lcm)
     
